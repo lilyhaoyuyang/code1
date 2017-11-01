@@ -75,14 +75,5 @@ class Ball {
   }
   void display() {
     rect(x, y, 4,4);
-    
-    // if the speed on the way down is faster than numbers, turn white
-    //if(speedY > 5  || speedX > 5){
-     // fill(255,255,255,random(100)); //make white and various transparency
-   // }else{
-   // fill(random(0, 50), random(100, 200), random(200, 255), random(255)); //if not fast then blue green shimmer
-   // }
-
-  
   }
 }
