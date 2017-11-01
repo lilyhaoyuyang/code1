@@ -7,10 +7,7 @@ void setup() {
   ballCollection = new ArrayList();
   noStroke();
   img = loadImage("123.png");
-  //  for (int i = 0; i < 100; i++) {
-  //    Ball myBall = new Ball(width/2, height/2);
-  //    ballCollection.add(myBall);
-  //  }
+  
 }
 void draw() {
 background(#4BC2F7);
